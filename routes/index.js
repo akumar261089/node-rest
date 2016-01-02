@@ -29,17 +29,17 @@ router.delete('/:id', function(req, res, next) {
 
 
 
-  
+
 
 module.exports = router;
 
-//  var client = require('mongodb').MongoClient;
+//var client = require('mongodb').MongoClient;
 //var url = 'mongodb://localhost:27017/test';
-  //var collection;
+//var collection;
 //client.connect(url,function(err,db){
  // if(err == null)
-  //{
-   // console.log("connection correctly to mongo");
+ // {
+  //  console.log("connection correctly to mongo");
    // collection = db.collection('test');
  // }
 
