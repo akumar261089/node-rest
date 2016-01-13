@@ -1,0 +1,833 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'grunt-cli',
+1 verbose cli   'bower',
+1 verbose cli   'yo',
+1 verbose cli   'generator-karma',
+1 verbose cli   'generator-angular' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose cache add [ 'grunt-cli', null ]
+5 verbose cache add name=undefined spec="grunt-cli" args=["grunt-cli",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'grunt-cli',
+6 verbose parsed url   path: 'grunt-cli',
+6 verbose parsed url   href: 'grunt-cli' }
+7 verbose cache add [ 'bower', null ]
+8 verbose cache add name=undefined spec="bower" args=["bower",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'bower',
+9 verbose parsed url   path: 'bower',
+9 verbose parsed url   href: 'bower' }
+10 verbose cache add [ 'yo', null ]
+11 verbose cache add name=undefined spec="yo" args=["yo",null]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: 'yo',
+12 verbose parsed url   path: 'yo',
+12 verbose parsed url   href: 'yo' }
+13 verbose cache add [ 'generator-karma', null ]
+14 verbose cache add name=undefined spec="generator-karma" args=["generator-karma",null]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: 'generator-karma',
+15 verbose parsed url   path: 'generator-karma',
+15 verbose parsed url   href: 'generator-karma' }
+16 verbose cache add [ 'generator-angular', null ]
+17 verbose cache add name=undefined spec="generator-angular" args=["generator-angular",null]
+18 verbose parsed url { protocol: null,
+18 verbose parsed url   slashes: null,
+18 verbose parsed url   auth: null,
+18 verbose parsed url   host: null,
+18 verbose parsed url   port: null,
+18 verbose parsed url   hostname: null,
+18 verbose parsed url   hash: null,
+18 verbose parsed url   search: null,
+18 verbose parsed url   query: null,
+18 verbose parsed url   pathname: 'generator-angular',
+18 verbose parsed url   path: 'generator-angular',
+18 verbose parsed url   href: 'generator-angular' }
+19 silly lockFile 671ef8ac-grunt-cli grunt-cli
+20 verbose lock grunt-cli /home/ubuntu/.npm/671ef8ac-grunt-cli.lock
+21 silly lockFile 206e3ce5-bower bower
+22 verbose lock bower /home/ubuntu/.npm/206e3ce5-bower.lock
+23 silly lockFile c41975d1-yo yo
+24 verbose lock yo /home/ubuntu/.npm/c41975d1-yo.lock
+25 silly lockFile 72787608-generator-karma generator-karma
+26 verbose lock generator-karma /home/ubuntu/.npm/72787608-generator-karma.lock
+27 silly lockFile 458e0b50-generator-angular generator-angular
+28 verbose lock generator-angular /home/ubuntu/.npm/458e0b50-generator-angular.lock
+29 silly lockFile 671ef8ac-grunt-cli grunt-cli
+30 silly lockFile 671ef8ac-grunt-cli grunt-cli
+31 silly lockFile 206e3ce5-bower bower
+32 silly lockFile 206e3ce5-bower bower
+33 silly lockFile c41975d1-yo yo
+34 silly lockFile c41975d1-yo yo
+35 silly lockFile 72787608-generator-karma generator-karma
+36 silly lockFile 72787608-generator-karma generator-karma
+37 silly lockFile 458e0b50-generator-angular generator-angular
+38 silly lockFile 458e0b50-generator-angular generator-angular
+39 verbose addNamed [ 'grunt-cli', '' ]
+40 verbose addNamed [ null, '*' ]
+41 silly lockFile d63f3d0b-grunt-cli grunt-cli@
+42 verbose lock grunt-cli@ /home/ubuntu/.npm/d63f3d0b-grunt-cli.lock
+43 verbose addNamed [ 'bower', '' ]
+44 verbose addNamed [ null, '*' ]
+45 silly lockFile 1240aab1-bower bower@
+46 verbose lock bower@ /home/ubuntu/.npm/1240aab1-bower.lock
+47 verbose addNamed [ 'yo', '' ]
+48 verbose addNamed [ null, '*' ]
+49 silly lockFile d937c28e-yo yo@
+50 verbose lock yo@ /home/ubuntu/.npm/d937c28e-yo.lock
+51 verbose addNamed [ 'generator-karma', '' ]
+52 verbose addNamed [ null, '*' ]
+53 silly lockFile 4afaad21-generator-karma generator-karma@
+54 verbose lock generator-karma@ /home/ubuntu/.npm/4afaad21-generator-karma.lock
+55 verbose addNamed [ 'generator-angular', '' ]
+56 verbose addNamed [ null, '*' ]
+57 silly lockFile 0345f598-generator-angular generator-angular@
+58 verbose lock generator-angular@ /home/ubuntu/.npm/0345f598-generator-angular.lock
+59 silly addNameRange { name: 'grunt-cli', range: '*', hasData: false }
+60 silly addNameRange { name: 'bower', range: '*', hasData: false }
+61 silly addNameRange { name: 'yo', range: '*', hasData: false }
+62 silly addNameRange { name: 'generator-karma', range: '*', hasData: false }
+63 silly addNameRange { name: 'generator-angular', range: '*', hasData: false }
+64 verbose url raw grunt-cli
+65 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-cli' ]
+66 verbose url resolved https://registry.npmjs.org/grunt-cli
+67 info trying registry request attempt 1 at 23:59:59
+68 verbose etag "9FVAZTYZ7K5ZX5I7RQBQL2F6M"
+69 http GET https://registry.npmjs.org/grunt-cli
+70 verbose url raw bower
+71 verbose url resolving [ 'https://registry.npmjs.org/', './bower' ]
+72 verbose url resolved https://registry.npmjs.org/bower
+73 info trying registry request attempt 1 at 23:59:59
+74 verbose etag "CUJWRRBIAV6HO3JTPVIRG9AW1"
+75 http GET https://registry.npmjs.org/bower
+76 verbose url raw yo
+77 verbose url resolving [ 'https://registry.npmjs.org/', './yo' ]
+78 verbose url resolved https://registry.npmjs.org/yo
+79 info trying registry request attempt 1 at 23:59:59
+80 verbose etag "CMVC9OXN701RSAC2WOLTE47BH"
+81 http GET https://registry.npmjs.org/yo
+82 verbose url raw generator-karma
+83 verbose url resolving [ 'https://registry.npmjs.org/', './generator-karma' ]
+84 verbose url resolved https://registry.npmjs.org/generator-karma
+85 info trying registry request attempt 1 at 23:59:59
+86 verbose etag "39ASPRMUEZVBCBJUM6IY4M4D3"
+87 http GET https://registry.npmjs.org/generator-karma
+88 verbose url raw generator-angular
+89 verbose url resolving [ 'https://registry.npmjs.org/', './generator-angular' ]
+90 verbose url resolved https://registry.npmjs.org/generator-angular
+91 info trying registry request attempt 1 at 23:59:59
+92 verbose etag "5EYVO2VEJBOXCE1VZO8O2F22R"
+93 http GET https://registry.npmjs.org/generator-angular
+94 http 304 https://registry.npmjs.org/generator-angular
+95 silly registry.get cb [ 304,
+95 silly registry.get   { date: 'Tue, 05 Jan 2016 13:04:14 GMT',
+95 silly registry.get     via: '1.1 varnish',
+95 silly registry.get     'cache-control': 'max-age=300',
+95 silly registry.get     etag: '"5EYVO2VEJBOXCE1VZO8O2F22R"',
+95 silly registry.get     age: '4',
+95 silly registry.get     connection: 'keep-alive',
+95 silly registry.get     'x-served-by': 'cache-sin6926-SIN',
+95 silly registry.get     'x-cache': 'HIT',
+95 silly registry.get     'x-cache-hits': '2',
+95 silly registry.get     'x-timer': 'S1451999054.792832,VS0,VE0',
+95 silly registry.get     vary: 'Accept' } ]
+96 verbose etag generator-angular from cache
+97 silly addNameRange number 2 { name: 'generator-angular', range: '*', hasData: true }
+98 silly addNameRange versions [ 'generator-angular',
+98 silly addNameRange   [ '0.1.0',
+98 silly addNameRange     '0.1.1',
+98 silly addNameRange     '0.1.2',
+98 silly addNameRange     '0.1.3',
+98 silly addNameRange     '0.1.4',
+98 silly addNameRange     '0.1.5',
+98 silly addNameRange     '0.2.0',
+98 silly addNameRange     '0.2.1',
+98 silly addNameRange     '0.2.2',
+98 silly addNameRange     '0.3.0',
+98 silly addNameRange     '0.3.1',
+98 silly addNameRange     '0.4.0',
+98 silly addNameRange     '0.5.0',
+98 silly addNameRange     '0.5.1',
+98 silly addNameRange     '0.6.0-rc.1',
+98 silly addNameRange     '0.6.0-rc.2',
+98 silly addNameRange     '0.6.0',
+98 silly addNameRange     '0.7.0',
+98 silly addNameRange     '0.7.1',
+98 silly addNameRange     '0.8.0',
+98 silly addNameRange     '0.9.0-0',
+98 silly addNameRange     '0.9.0-1',
+98 silly addNameRange     '0.9.0',
+98 silly addNameRange     '0.9.1',
+98 silly addNameRange     '0.9.2',
+98 silly addNameRange     '0.9.3',
+98 silly addNameRange     '0.9.5',
+98 silly addNameRange     '0.9.6',
+98 silly addNameRange     '0.9.7',
+98 silly addNameRange     '0.9.8',
+98 silly addNameRange     '0.10.0',
+98 silly addNameRange     '0.11.0',
+98 silly addNameRange     '0.11.1',
+98 silly addNameRange     '0.12.0',
+98 silly addNameRange     '0.11.2',
+98 silly addNameRange     '0.12.1',
+98 silly addNameRange     '0.13.0',
+98 silly addNameRange     '0.13.1',
+98 silly addNameRange     '0.13.2',
+98 silly addNameRange     '0.13.3',
+98 silly addNameRange     '0.13.4',
+98 silly addNameRange     '0.14.0',
+98 silly addNameRange     '0.15.0',
+98 silly addNameRange     '0.15.1' ] ]
+99 verbose addNamed [ 'generator-angular', '0.15.1' ]
+100 verbose addNamed [ '0.15.1', '0.15.1' ]
+101 silly lockFile 2466e7f7-generator-angular-0-15-1 generator-angular@0.15.1
+102 verbose lock generator-angular@0.15.1 /home/ubuntu/.npm/2466e7f7-generator-angular-0-15-1.lock
+103 http 200 https://registry.npmjs.org/grunt-cli
+104 silly registry.get cb [ 200,
+104 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+104 silly registry.get     etag: '"BVCG8F4CMPXN76KN8OUVX02Q8"',
+104 silly registry.get     'content-type': 'application/json',
+104 silly registry.get     'cache-control': 'max-age=300',
+104 silly registry.get     'content-length': '22012',
+104 silly registry.get     'accept-ranges': 'bytes',
+104 silly registry.get     date: 'Tue, 05 Jan 2016 13:04:14 GMT',
+104 silly registry.get     via: '1.1 varnish',
+104 silly registry.get     age: '39',
+104 silly registry.get     connection: 'keep-alive',
+104 silly registry.get     'x-served-by': 'cache-sin6921-SIN',
+104 silly registry.get     'x-cache': 'HIT',
+104 silly registry.get     'x-cache-hits': '2',
+104 silly registry.get     'x-timer': 'S1451999054.774021,VS0,VE0',
+104 silly registry.get     vary: 'Accept' } ]
+105 silly lockFile 2466e7f7-generator-angular-0-15-1 generator-angular@0.15.1
+106 silly lockFile 2466e7f7-generator-angular-0-15-1 generator-angular@0.15.1
+107 silly lockFile 0345f598-generator-angular generator-angular@
+108 silly lockFile 0345f598-generator-angular generator-angular@
+109 silly addNameRange number 2 { name: 'grunt-cli', range: '*', hasData: true }
+110 silly addNameRange versions [ 'grunt-cli',
+110 silly addNameRange   [ '0.1.0',
+110 silly addNameRange     '0.1.1',
+110 silly addNameRange     '0.1.2',
+110 silly addNameRange     '0.1.3',
+110 silly addNameRange     '0.1.4',
+110 silly addNameRange     '0.1.5',
+110 silly addNameRange     '0.1.6',
+110 silly addNameRange     '0.1.7',
+110 silly addNameRange     '0.1.8',
+110 silly addNameRange     '0.1.9',
+110 silly addNameRange     '0.1.10',
+110 silly addNameRange     '0.1.11',
+110 silly addNameRange     '0.1.12',
+110 silly addNameRange     '0.1.13' ] ]
+111 verbose addNamed [ 'grunt-cli', '0.1.13' ]
+112 verbose addNamed [ '0.1.13', '0.1.13' ]
+113 silly lockFile 28997503-grunt-cli-0-1-13 grunt-cli@0.1.13
+114 verbose lock grunt-cli@0.1.13 /home/ubuntu/.npm/28997503-grunt-cli-0-1-13.lock
+115 silly lockFile 28997503-grunt-cli-0-1-13 grunt-cli@0.1.13
+116 silly lockFile 28997503-grunt-cli-0-1-13 grunt-cli@0.1.13
+117 silly lockFile d63f3d0b-grunt-cli grunt-cli@
+118 silly lockFile d63f3d0b-grunt-cli grunt-cli@
+119 http 200 https://registry.npmjs.org/yo
+120 silly registry.get cb [ 200,
+120 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+120 silly registry.get     etag: '"9LEW28G30271UT9APY3ZT338K"',
+120 silly registry.get     'content-type': 'application/json',
+120 silly registry.get     'cache-control': 'max-age=300',
+120 silly registry.get     'content-length': '42042',
+120 silly registry.get     'accept-ranges': 'bytes',
+120 silly registry.get     date: 'Tue, 05 Jan 2016 13:04:14 GMT',
+120 silly registry.get     via: '1.1 varnish',
+120 silly registry.get     age: '74',
+120 silly registry.get     connection: 'keep-alive',
+120 silly registry.get     'x-served-by': 'cache-sin6925-SIN',
+120 silly registry.get     'x-cache': 'HIT',
+120 silly registry.get     'x-cache-hits': '10',
+120 silly registry.get     'x-timer': 'S1451999054.783539,VS0,VE0',
+120 silly registry.get     vary: 'Accept' } ]
+121 http 304 https://registry.npmjs.org/generator-karma
+122 silly registry.get cb [ 304,
+122 silly registry.get   { date: 'Tue, 05 Jan 2016 13:04:14 GMT',
+122 silly registry.get     via: '1.1 varnish',
+122 silly registry.get     'cache-control': 'max-age=300',
+122 silly registry.get     etag: '"39ASPRMUEZVBCBJUM6IY4M4D3"',
+122 silly registry.get     age: '0',
+122 silly registry.get     connection: 'keep-alive',
+122 silly registry.get     'x-served-by': 'cache-sin6923-SIN',
+122 silly registry.get     'x-cache': 'HIT',
+122 silly registry.get     'x-cache-hits': '1',
+122 silly registry.get     'x-timer': 'S1451999054.786266,VS0,VE245',
+122 silly registry.get     vary: 'Accept' } ]
+123 verbose etag generator-karma from cache
+124 silly addNameRange number 2 { name: 'yo', range: '*', hasData: true }
+125 silly addNameRange versions [ 'yo',
+125 silly addNameRange   [ '1.1.0',
+125 silly addNameRange     '1.1.1',
+125 silly addNameRange     '1.1.2',
+125 silly addNameRange     '1.4.6',
+125 silly addNameRange     '1.4.7',
+125 silly addNameRange     '1.4.8',
+125 silly addNameRange     '1.5.0',
+125 silly addNameRange     '1.5.1' ] ]
+126 verbose addNamed [ 'yo', '1.5.1' ]
+127 verbose addNamed [ '1.5.1', '1.5.1' ]
+128 silly lockFile 5e815234-yo-1-5-1 yo@1.5.1
+129 verbose lock yo@1.5.1 /home/ubuntu/.npm/5e815234-yo-1-5-1.lock
+130 silly addNameRange number 2 { name: 'generator-karma', range: '*', hasData: true }
+131 silly addNameRange versions [ 'generator-karma',
+131 silly addNameRange   [ '0.1.1',
+131 silly addNameRange     '0.2.0',
+131 silly addNameRange     '0.3.0',
+131 silly addNameRange     '0.3.1',
+131 silly addNameRange     '0.4.1',
+131 silly addNameRange     '0.5.0',
+131 silly addNameRange     '0.6.0',
+131 silly addNameRange     '0.7.0',
+131 silly addNameRange     '0.8.0',
+131 silly addNameRange     '0.8.1',
+131 silly addNameRange     '0.8.2',
+131 silly addNameRange     '0.8.3',
+131 silly addNameRange     '0.9.0',
+131 silly addNameRange     '1.0.0',
+131 silly addNameRange     '1.0.1' ] ]
+132 verbose addNamed [ 'generator-karma', '1.0.1' ]
+133 verbose addNamed [ '1.0.1', '1.0.1' ]
+134 silly lockFile 1df92379-generator-karma-1-0-1 generator-karma@1.0.1
+135 verbose lock generator-karma@1.0.1 /home/ubuntu/.npm/1df92379-generator-karma-1-0-1.lock
+136 silly lockFile 5e815234-yo-1-5-1 yo@1.5.1
+137 silly lockFile 5e815234-yo-1-5-1 yo@1.5.1
+138 silly lockFile 1df92379-generator-karma-1-0-1 generator-karma@1.0.1
+139 silly lockFile 1df92379-generator-karma-1-0-1 generator-karma@1.0.1
+140 silly lockFile d937c28e-yo yo@
+141 silly lockFile d937c28e-yo yo@
+142 silly lockFile 4afaad21-generator-karma generator-karma@
+143 silly lockFile 4afaad21-generator-karma generator-karma@
+144 http 200 https://registry.npmjs.org/bower
+145 silly registry.get cb [ 200,
+145 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+145 silly registry.get     etag: '"ORY6MZ83PKGOE5M48YDC1HFJ"',
+145 silly registry.get     'content-type': 'application/json',
+145 silly registry.get     'cache-control': 'max-age=300',
+145 silly registry.get     'content-length': '165038',
+145 silly registry.get     'accept-ranges': 'bytes',
+145 silly registry.get     date: 'Tue, 05 Jan 2016 13:04:14 GMT',
+145 silly registry.get     via: '1.1 varnish',
+145 silly registry.get     age: '235',
+145 silly registry.get     connection: 'keep-alive',
+145 silly registry.get     'x-served-by': 'cache-sin6922-SIN',
+145 silly registry.get     'x-cache': 'HIT',
+145 silly registry.get     'x-cache-hits': '6',
+145 silly registry.get     'x-timer': 'S1451999054.776205,VS0,VE0',
+145 silly registry.get     vary: 'Accept' } ]
+146 silly addNameRange number 2 { name: 'bower', range: '*', hasData: true }
+147 silly addNameRange versions [ 'bower',
+147 silly addNameRange   [ '0.1.0',
+147 silly addNameRange     '0.1.2',
+147 silly addNameRange     '0.1.3',
+147 silly addNameRange     '0.2.0',
+147 silly addNameRange     '0.3.0',
+147 silly addNameRange     '0.3.1',
+147 silly addNameRange     '0.3.2',
+147 silly addNameRange     '0.4.0',
+147 silly addNameRange     '0.5.0',
+147 silly addNameRange     '0.5.1',
+147 silly addNameRange     '0.6.0',
+147 silly addNameRange     '0.6.1',
+147 silly addNameRange     '0.6.2',
+147 silly addNameRange     '0.6.3',
+147 silly addNameRange     '0.6.4',
+147 silly addNameRange     '0.6.5',
+147 silly addNameRange     '0.6.6',
+147 silly addNameRange     '0.6.7',
+147 silly addNameRange     '0.6.8',
+147 silly addNameRange     '0.7.0',
+147 silly addNameRange     '0.7.1',
+147 silly addNameRange     '0.8.0',
+147 silly addNameRange     '0.8.1',
+147 silly addNameRange     '0.8.2',
+147 silly addNameRange     '0.8.3',
+147 silly addNameRange     '0.8.4',
+147 silly addNameRange     '0.8.5',
+147 silly addNameRange     '0.8.6',
+147 silly addNameRange     '0.9.0',
+147 silly addNameRange     '0.9.1',
+147 silly addNameRange     '0.9.2',
+147 silly addNameRange     '0.10.0',
+147 silly addNameRange     '1.0.0',
+147 silly addNameRange     '1.0.1',
+147 silly addNameRange     '1.0.2',
+147 silly addNameRange     '1.0.3',
+147 silly addNameRange     '1.1.0',
+147 silly addNameRange     '1.1.1',
+147 silly addNameRange     '1.1.2',
+147 silly addNameRange     '1.2.0',
+147 silly addNameRange     '1.2.1',
+147 silly addNameRange     '1.2.2',
+147 silly addNameRange     '1.2.3',
+147 silly addNameRange     '1.2.4',
+147 silly addNameRange     '1.2.5',
+147 silly addNameRange     '1.2.6',
+147 silly addNameRange     '1.2.7',
+147 silly addNameRange     '1.2.8',
+147 silly addNameRange     '1.3.0',
+147 silly addNameRange     '1.3.1',
+147 silly addNameRange     '1.3.2',
+147 silly addNameRange     '1.3.3',
+147 silly addNameRange     '1.3.4',
+147 silly addNameRange     '1.3.5',
+147 silly addNameRange     '1.3.6',
+147 silly addNameRange     '1.3.7',
+147 silly addNameRange     '1.3.8',
+147 silly addNameRange     '1.3.9',
+147 silly addNameRange     '1.3.10',
+147 silly addNameRange     '1.3.11',
+147 silly addNameRange     '1.3.12',
+147 silly addNameRange     '1.4.0',
+147 silly addNameRange     '1.4.1',
+147 silly addNameRange     '1.5.0',
+147 silly addNameRange     '1.5.1',
+147 silly addNameRange     '1.5.2',
+147 silly addNameRange     '1.5.3',
+147 silly addNameRange     '1.6.2',
+147 silly addNameRange     '1.6.3',
+147 silly addNameRange     '1.6.4',
+147 silly addNameRange     '1.6.5',
+147 silly addNameRange     '1.5.4',
+147 silly addNameRange     '1.4.2',
+147 silly addNameRange     '1.6.6',
+147 silly addNameRange     '1.6.7',
+147 silly addNameRange     '1.6.8',
+147 silly addNameRange     '1.6.9',
+147 silly addNameRange     '1.7.0',
+147 silly addNameRange     '1.7.1',
+147 silly addNameRange     '1.7.2' ] ]
+148 verbose addNamed [ 'bower', '1.7.2' ]
+149 verbose addNamed [ '1.7.2', '1.7.2' ]
+150 silly lockFile 7ff4c8ad-bower-1-7-2 bower@1.7.2
+151 verbose lock bower@1.7.2 /home/ubuntu/.npm/7ff4c8ad-bower-1-7-2.lock
+152 silly lockFile 7ff4c8ad-bower-1-7-2 bower@1.7.2
+153 silly lockFile 7ff4c8ad-bower-1-7-2 bower@1.7.2
+154 silly lockFile 1240aab1-bower bower@
+155 silly lockFile 1240aab1-bower bower@
+156 silly resolved [ { name: 'generator-angular',
+156 silly resolved     version: '0.15.1',
+156 silly resolved     description: 'Yeoman generator for AngularJS',
+156 silly resolved     keywords:
+156 silly resolved      [ 'yeoman-generator',
+156 silly resolved        'scaffold',
+156 silly resolved        'framework',
+156 silly resolved        'component',
+156 silly resolved        'front-end',
+156 silly resolved        'app',
+156 silly resolved        'angular' ],
+156 silly resolved     author: { name: 'The Yeoman Team' },
+156 silly resolved     main: 'app/index.js',
+156 silly resolved     files:
+156 silly resolved      [ 'app',
+156 silly resolved        'common',
+156 silly resolved        'constant',
+156 silly resolved        'controller',
+156 silly resolved        'decorator',
+156 silly resolved        'directive',
+156 silly resolved        'factory',
+156 silly resolved        'filter',
+156 silly resolved        'main',
+156 silly resolved        'provider',
+156 silly resolved        'route',
+156 silly resolved        'service',
+156 silly resolved        'templates',
+156 silly resolved        'value',
+156 silly resolved        'view',
+156 silly resolved        'script-base.js',
+156 silly resolved        'util.js' ],
+156 silly resolved     repository:
+156 silly resolved      { type: 'git',
+156 silly resolved        url: 'git://github.com/yeoman/generator-angular' },
+156 silly resolved     scripts: { test: 'mocha' },
+156 silly resolved     dependencies:
+156 silly resolved      { chalk: '^1.0.0',
+156 silly resolved        wiredep: '^2.2.0',
+156 silly resolved        'yeoman-generator': '^0.16.0',
+156 silly resolved        yosay: '^1.0.2' },
+156 silly resolved     peerDependencies: { 'generator-karma': '>=0.9.0' },
+156 silly resolved     devDependencies:
+156 silly resolved      { grunt: '^0.4.5',
+156 silly resolved        'grunt-bump': '^0.6.0',
+156 silly resolved        'grunt-contrib-jshint': '^0.11.0',
+156 silly resolved        'grunt-conventional-github-releaser': '^0.5.0',
+156 silly resolved        'load-grunt-tasks': '^3.1.0',
+156 silly resolved        mocha: '*',
+156 silly resolved        'underscore.string': '^3.0.3' },
+156 silly resolved     engines: { node: '>=0.10.0' },
+156 silly resolved     license: 'BSD-2-Clause',
+156 silly resolved     readme: '# AngularJS generator [![Build Status](https://secure.travis-ci.org/yeoman/generator-angular.svg?branch=master)](http://travis-ci.org/yeoman/generator-angular)\n\n> Yeoman generator for AngularJS - lets you quickly set up a project with sensible defaults and best practices.\n\nThere are many starting points for building a new Angular single page app, in addition to this one. To see a comparison \nof the popular options, have a look at \n[this comparison](http://www.dancancro.com/comparison-of-angularjs-application-starters).\n\n[Roadmap for upcoming plans/features/fixes](https://github.com/yeoman/generator-angular/issues/553)\n\n## Usage\n\nFor step-by-step instructions on using Yeoman and this generator to build a TODO AngularJS application from scratch see [this tutorial.](http://yeoman.io/codelab/)\n\nInstall `yo`, `grunt-cli`, `bower`, `generator-angular` and `generator-karma`:\n```\nnpm install -g grunt-cli bower yo generator-karma generator-angular\n```\n\nMake a new directory, and `cd` into it:\n```\nmkdir my-new-project && cd $_\n```\n\nRun `yo angular`, optionally passing an app name:\n```\nyo angular [app-name]\n```\n\nRun `grunt` for building and `grunt serve` for preview\n\n\n## Generators\n\nAvailable generators:\n\n* [angular](#app) (aka [angular:app](#app))\n* [angular:controller](#controller)\n* [angular:directive](#directive)\n* [angular:filter](#filter)\n* [angular:route](#route)\n* [angular:service](#service)\n* [angular:provider](#service)\n* [angular:factory](#service)\n* [angular:value](#service)\n* [angular:constant](#service)\n* [angular:decorator](#decorator)\n* [angular:view](#view)\n\n### App\nSets up a new AngularJS app, generating all the boilerplate you need to get started. The app generator also optionally installs Bootstrap and additional AngularJS modules, such as angular-resource (installed by default).\n\nExample:\n```bash\nyo angular\n```\n\n### Route\nGenerates a controller and view, and configures a route in `app/scripts/app.js` connecting them.\n\nExample:\n```bash\nyo angular:route myroute\n```\n\nProduces `app/scripts/controllers/myroute.js`:\n```javascript\nangular.module(\'myMod\').controller(\'MyrouteCtrl\', function ($scope) {\n  // ...\n});\n```\n\nProduces `app/views/myroute.html`:\n```html\n<p>This is the myroute view</p>\n```\n\n**Explicitly provide route URI**\n\nExample:\n```bash\nyo angular:route myRoute --uri=my/route\n```\n\nProduces controller and view as above and adds a route to `app/scripts/app.js`\nwith URI `my/route`\n\n### Controller\nGenerates a controller in `app/scripts/controllers`.\n\nExample:\n```bash\nyo angular:controller user\n```\n\nProduces `app/scripts/controllers/user.js`:\n```javascript\nangular.module(\'myMod\').controller(\'UserCtrl\', function ($scope) {\n  // ...\n});\n```\n### Directive\nGenerates a directive in `app/scripts/directives`.\n\nExample:\n```bash\nyo angular:directive myDirective\n```\n\nProduces `app/scripts/directives/myDirective.js`:\n```javascript\nangular.module(\'myMod\').directive(\'myDirective\', function () {\n  return {\n    template: \'<div></div>\',\n    restrict: \'E\',\n    link: function postLink(scope, element, attrs) {\n      element.text(\'this is the myDirective directive\');\n    }\n  };\n});\n```\n\n### Filter\nGenerates a filter in `app/scripts/filters`.\n\nExample:\n```bash\nyo angular:filter myFilter\n```\n\nProduces `app/scripts/filters/myFilter.js`:\n```javascript\nangular.module(\'myMod\').filter(\'myFilter\', function () {\n  return function (input) {\n    return \'myFilter filter:\' + input;\n  };\n});\n```\n\n### View\nGenerates an HTML view file in `app/views`.\n\nExample:\n```bash\nyo angular:view user\n```\n\nProduces `app/views/user.html`:\n```html\n<p>This is the user view</p>\n```\n\n### Service\nGenerates an AngularJS service.\n\nExample:\n```bash\nyo angular:service myService\n```\n\nProduces `app/scripts/services/myService.js`:\n```javascript\nangular.module(\'myMod\').service(\'myService\', function () {\n  // ...\n});\n```\n\nYou can also do `yo angular:factory`, `yo angular:provider`, `yo angular:value`, and `yo angular:constant` for other types of services.\n\n### Decorator\nGenerates an AngularJS service decorator.\n\nExample:\n```bash\nyo angular:decorator serviceName\n```\n\nProduces `app/scripts/decorators/serviceNameDecorator.js`:\n```javascript\nangular.module(\'myMod\').config(function ($provide) {\n    $provide.decorator(\'serviceName\', function ($delegate) {\n      // ...\n      return $delegate;\n    });\n  });\n```\n\n## Options\nIn general, these options can be applied to any generator, though they only affect generators that produce scripts.\n\n### CoffeeScript and TypeScript\nFor generators that output scripts, the `--coffee` option will output CoffeeScript instead of JavaScript, and `--typescript` will output TypeScript instead of JavaScript.\n\nFor example:\n```bash\nyo angular:controller user --coffee\n```\n\nProduces `app/scripts/controller/user.coffee`:\n```coffeescript\nangular.module(\'myMod\')\n  .controller \'UserCtrl\', ($scope) ->\n```\n\nFor example:\n```bash\nyo angular:controller user --typescript\n```\n\nProduces `app/scripts/controller/user.ts`:\n```typescript\n/// <reference path="../app.ts" />\n\n\'use strict\';\n\nmodule demoApp {\n    export interface IUserScope extends ng.IScope {\n        awesomeThings: any[];\n    }\n    \n    export class UserCtrl {\n\n        constructor (private $scope:IUserScope) {\n\t        $scope.awesomeThings = [\n              \'HTML5 Boilerplate\',\n              \'AngularJS\',\n              \'Karma\'\n            ];\n        }\n    }\n}\n\nangular.module(\'demoApp\')\n  .controller(\'UserCtrl\', demoApp.UserCtrl);\n```\n\n\nA project can mix TypeScript, CoffeScript, and JavaScript files.\n\nTo output JavaScript files, even if CoffeeScript (or TypeScript) files exist (the default is to output CoffeeScript files if the generator finds any in the project), use `--coffee=false` and/or `--typescript=false`.\n\n### Minification Safe\n\n**tl;dr**: You don\'t need to write annotated code as the build step will\nhandle it for you.\n\nBy default, generators produce unannotated code. Without annotations, AngularJS\'s DI system will break when minified. Typically, these annotations that make minification safe are added automatically at build-time, after application files are concatenated, but before they are minified. The annotations are important because minified code will rename variables, making it impossible for AngularJS to infer module names based solely on function parameters.\n\nThe recommended build process uses `ng-annotate`, a tool that automatically adds these annotations. However, if you\'d rather not use it, you have to add these annotations manually yourself. Why would you do that though? If you find a bug\nin the annotated code, please file an issue at [ng-annotate](https://github.com/olov/ng-annotate/issues).\n\n\n### Add to Index\nBy default, new scripts are added to the index.html file. However, this may not always be suitable. Some use cases:\n\n* Manually added to the file\n* Auto-added by a 3rd party plugin\n* Using this generator as a subgenerator\n\nTo skip adding them to the index, pass in the skip-add argument:\n```bash\nyo angular:service serviceName --skip-add\n```\n\n## Bower Components\n\nThe following packages are always installed by the [app](#app) generator:\n\n* angular\n* angular-mocks\n\n\nThe following additional modules are available as components on bower, and installable via `bower install`:\n\n* angular-animate\n* angular-aria\n* angular-cookies\n* angular-messages\n* angular-resource\n* angular-sanitize\n\nAll of these can be updated with `bower update` as new versions of AngularJS are released.\n\n`json3` and `es5-shim` have been removed as Angular 1.3 has dropped IE8 support and that is the last version that needed these shims. If you still require these, you can include them with: `bower install --save json3 es5-shim`. `wiredep` should add them to your index.html file but if not you can manually add them.\n\n## Configuration\nYeoman generated projects can be further tweaked according to your needs by modifying project files appropriately.\n\n### Output\nYou can change the `app` directory by adding a `appPath` property to `bower.json`. For instance, if you wanted to easily integrate with Express.js, you could add the following:\n\n```json\n{\n  "name": "yo-test",\n  "version": "0.0.0",\n  ...\n  "appPath": "public"\n}\n\n```\nThis will cause Yeoman-generated client-side files to be placed in `public`.\n\nNote that you can also achieve the same results by adding an `--appPath` option when starting generator:\n```bash\nyo angular [app-name] --appPath=public\n```\n\n## Testing\n\nRunning `grunt test` will run the unit tests with karma.\n\n## Contribute\n\nSee the [contributing docs](https://github.com/yeoman/yeoman/blob/master/contributing.md)\n\nWhen submitting an issue, please follow the [guidelines](https://github.com/yeoman/yeoman/blob/master/contributing.md#issue-submission). Especially important is to make sure Yeoman is up-to-date, and providing the command or commands that cause the issue.\n\nWhen submitting a PR, make sure that the commit messages match the [AngularJS conventions](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/).\n\nWhen submitting a bugfix, write a test that exposes the bug and fails before applying your fix. Submit the test alongside the fix.\n\nWhen submitting a new feature, add tests that cover the feature.\n\n## Changelog\n\nRecent changes can be viewed on Github on the [Releases Page](https://github.com/yeoman/generator-angular/releases)\n\n## License\n\n[BSD license](http://opensource.org/licenses/bsd-license.php)\n',
+156 silly resolved     readmeFilename: 'readme.md',
+156 silly resolved     bugs: { url: 'https://github.com/yeoman/generator-angular/issues' },
+156 silly resolved     _id: 'generator-angular@0.15.1',
+156 silly resolved     _from: 'generator-angular@' },
+156 silly resolved   { name: 'grunt-cli',
+156 silly resolved     description: 'The grunt command line interface.',
+156 silly resolved     version: '0.1.13',
+156 silly resolved     author: { name: 'Grunt Team' },
+156 silly resolved     homepage: 'http://gruntjs.com/',
+156 silly resolved     repository: { type: 'git', url: 'git://github.com/gruntjs/grunt-cli.git' },
+156 silly resolved     bugs: { url: 'http://github.com/gruntjs/grunt-cli/issues' },
+156 silly resolved     licenses: [ [Object] ],
+156 silly resolved     bin: { grunt: 'bin/grunt' },
+156 silly resolved     engines: { node: '>= 0.8.0' },
+156 silly resolved     scripts: { test: 'node bin/grunt test' },
+156 silly resolved     preferGlobal: true,
+156 silly resolved     dependencies: { nopt: '~1.0.10', 'findup-sync': '~0.1.0', resolve: '~0.3.1' },
+156 silly resolved     devDependencies: { grunt: '~0.4.0', 'grunt-contrib-jshint': '~0.2.0' },
+156 silly resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+156 silly resolved     readme: '# grunt-cli [![Build Status](https://secure.travis-ci.org/gruntjs/grunt-cli.png?branch=master)](http://travis-ci.org/gruntjs/grunt-cli)\n> The Grunt command line interface.\n\nInstall this globally and you\'ll have access to the `grunt` command anywhere on your system.\n\n```shell\nnpm install -g grunt-cli\n```\n\n**Note:** The job of the `grunt` command is to load and run the version of Grunt you have installed locally to your project, irrespective of its version.  Starting with Grunt v0.4, you should never install Grunt itself globally.  For more information about why, [please read this](http://blog.nodejs.org/2011/03/23/npm-1-0-global-vs-local-installation).\n\nSee the [Getting Started](http://gruntjs.com/getting-started) guide for more information.\n\n## Shell tab auto-completion\nTo enable tab auto-completion for Grunt, add one of the following lines to your `~/.bashrc` or `~/.zshrc` file.\n\n```bash\n# Bash, ~/.bashrc\neval "$(grunt --completion=bash)"\n```\n\n```bash\n# Zsh, ~/.zshrc\neval "$(grunt --completion=zsh)"\n```\n\n## Installing grunt-cli locally\nIf you prefer the idiomatic Node.js method to get started with a project (`npm install && npm test`) then install grunt-cli locally with `npm install grunt-cli --save-dev`. Then add a script to your `package.json` to run the associated grunt command: `"scripts": { "test": "grunt test" } `. Now `npm test` will use the locally installed `./node_modules/.bin/grunt` executable to run your Grunt commands.\n\nTo read more about npm scripts, please visit the npm docs: [https://npmjs.org/doc/misc/npm-scripts.html](https://npmjs.org/doc/misc/npm-scripts.html).\n',
+156 silly resolved     readmeFilename: 'README.md',
+156 silly resolved     _id: 'grunt-cli@0.1.13',
+156 silly resolved     _from: 'grunt-cli@' },
+156 silly resolved   { name: 'yo',
+156 silly resolved     version: '1.5.1',
+156 silly resolved     description: 'CLI tool for running Yeoman generators',
+156 silly resolved     license: 'BSD-2-Clause',
+156 silly resolved     repository: { type: 'git', url: 'git://github.com/yeoman/yo' },
+156 silly resolved     author: { name: 'Yeoman' },
+156 silly resolved     bin: { yo: 'lib/cli.js' },
+156 silly resolved     engines: { node: '>=0.12.0' },
+156 silly resolved     scripts:
+156 silly resolved      { test: 'xo && mocha test/**/*.js',
+156 silly resolved        postinstall: 'yodoctor',
+156 silly resolved        postupdate: 'yodoctor',
+156 silly resolved        prepublish: 'nsp check' },
+156 silly resolved     files: [ 'lib' ],
+156 silly resolved     keywords:
+156 silly resolved      [ 'cli-app',
+156 silly resolved        'cli',
+156 silly resolved        'front-end',
+156 silly resolved        'development',
+156 silly resolved        'dev',
+156 silly resolved        'build',
+156 silly resolved        'web',
+156 silly resolved        'tool',
+156 silly resolved        'scaffold',
+156 silly resolved        'stack',
+156 silly resolved        'yeoman',
+156 silly resolved        'generator',
+156 silly resolved        'generate',
+156 silly resolved        'app',
+156 silly resolved        'boilerplate' ],
+156 silly resolved     dependencies:
+156 silly resolved      { async: '^1.0.0',
+156 silly resolved        chalk: '^1.0.0',
+156 silly resolved        configstore: '^1.0.0',
+156 silly resolved        'cross-spawn-async': '^2.0.0',
+156 silly resolved        figures: '^1.3.5',
+156 silly resolved        fullname: '^2.0.0',
+156 silly resolved        got: '^5.0.0',
+156 silly resolved        'humanize-string': '^1.0.0',
+156 silly resolved        inquirer: '^0.11.0',
+156 silly resolved        insight: '^0.7.0',
+156 silly resolved        lodash: '^3.2.0',
+156 silly resolved        meow: '^3.0.0',
+156 silly resolved        'npm-keyword': '^4.1.0',
+156 silly resolved        opn: '^3.0.2',
+156 silly resolved        'package-json': '^2.1.0',
+156 silly resolved        'read-pkg-up': '^1.0.1',
+156 silly resolved        repeating: '^2.0.0',
+156 silly resolved        'root-check': '^1.0.0',
+156 silly resolved        'sort-on': '^1.0.0',
+156 silly resolved        'string-length': '^1.0.0',
+156 silly resolved        titleize: '^1.0.0',
+156 silly resolved        'update-notifier': '^0.5.0',
+156 silly resolved        'user-home': '^2.0.0',
+156 silly resolved        'yeoman-character': '^1.0.0',
+156 silly resolved        'yeoman-doctor': '^2.0.0',
+156 silly resolved        'yeoman-environment': '^1.2.7',
+156 silly resolved        yosay: '^1.0.0' },
+156 silly resolved     devDependencies:
+156 silly resolved      { mocha: '^2.1.0',
+156 silly resolved        mockery: '^1.4.0',
+156 silly resolved        nock: '^2.0.1',
+156 silly resolved        nsp: '^2.2.0',
+156 silly resolved        proxyquire: '^1.0.1',
+156 silly resolved        'registry-url': '^3.0.0',
+156 silly resolved        sinon: '^1.12.1',
+156 silly resolved        xo: '*' },
+156 silly resolved     xo: { space: true, envs: [Object] },
+156 silly resolved     readme: '# yo [![Build Status](https://travis-ci.org/yeoman/yo.svg?branch=master)](https://travis-ci.org/yeoman/yo) [![](http://img.shields.io/badge/unicorn-approved-ff69b4.svg)](https://www.youtube.com/watch?v=9auOCbH5Ns4)\n\n[![](https://raw.githubusercontent.com/yeoman/media/master/optimized/yeoman-masthead.png)](http://yeoman.io)\n\n<img src="screenshot.png" width="569">\n\n\n## What\'s Yeoman?\n\nYeoman helps you to kickstart new projects, prescribing best practices and tools to help you stay productive.\n\nTo do so, we provide a [generator ecosystem](http://yeoman.io/generators/). A generator is basically a plugin that can be run with the `yo` command to scaffold complete projects or useful parts.\n\n\n## Usage\n\n```sh\n# install yo\nnpm install --global yo\n\n# install a generator\nnpm install --global generator-webapp\n\n# run it\nyo webapp\n```\n\n*To create and distribute your own generator, refer to [our official documentation](http://yeoman.io/authoring/)*\n\n\n## Options\n\n- `--no-color` - Disable colors.\n- `--version` - Print the current `yo` version.\n- `--help` - Print `yo` help menu with the list of found generators.\n- `--[no-]insight` - Toggle anonymous [Insight](https://github.com/yeoman/insight) tracking which helps us improve Yeoman. Using either of these flags on the first run will prevent you from being prompted about it interactively. The flags can also be used to change it later on.\n- `--generators` - Print available generators.\n\n\n## Troubleshooting\n\nRunning `yo doctor` command can help you troubleshoot common issues.\n\nIf `doctor` doesn\'t help, then check opened issues for a similar problem. Open a new issue if your problem haven\'t been reported yet. Make sure to always include the version of `yo` (`yo --version`) and Node.js (`node --version`) you use.\n\nIf your issue only occurs using a generator, please report the issues on the generator\'s repository.\n\n\n## Contribute\n\nSee the [contributing docs](http://yeoman.io/contributing/).\n\n\n## Changelog\n\nSee the [release page](https://github.com/yeoman/yo/releases).\n\n\n## License\n\nBSD-2-Clause © Google\n',
+156 silly resolved     readmeFilename: 'readme.md',
+156 silly resolved     bugs: { url: 'https://github.com/yeoman/yo/issues' },
+156 silly resolved     _id: 'yo@1.5.1',
+156 silly resolved     _from: 'yo@' },
+156 silly resolved   { name: 'generator-karma',
+156 silly resolved     version: '1.0.1',
+156 silly resolved     description: 'Yeoman generator for Karma',
+156 silly resolved     license: 'BSD',
+156 silly resolved     main: 'app/index.js',
+156 silly resolved     repository: { type: 'git', url: 'git://github.com/yeoman/generator-karma' },
+156 silly resolved     author: { name: 'The Yeoman Team' },
+156 silly resolved     engines: { node: '>=0.10.0', npm: '>=1.2.10' },
+156 silly resolved     scripts: { test: 'mocha --reporter spec' },
+156 silly resolved     files: [ 'app', 'templates' ],
+156 silly resolved     keywords: [ 'yeoman-generator', 'scaffold', 'test', 'runner', 'karma' ],
+156 silly resolved     dependencies:
+156 silly resolved      { underscore: '^1.6.0',
+156 silly resolved        'yeoman-generator': '^0.19.1',
+156 silly resolved        'sorted-object': '~1.0.0' },
+156 silly resolved     devDependencies: { mocha: '*' },
+156 silly resolved     readme: '# Karma generator [![Build Status](https://secure.travis-ci.org/yeoman/generator-karma.svg?branch=master)](http://travis-ci.org/yeoman/generator-karma)\n\nSee the [Karma documentation](http://karma-runner.github.com/) for more info.\n\n\n## Why Karma?\n\nKarma runs the tests in the browser, but reports them in the CLI. This greatly improves your workflow by giving you constant, accurate feedback on the status of your tests.\n\n\n## Usage\n\nInstall it globally `npm install -g generator-karma`.\n\nRunning `yo karma` will generate a config file for your project: `karma.conf.js`. It will then install the npm dependencies.\n\nBy default, running `yo karma` will generate a pretty boring (and almost useless) config file. The real power is using the options to specify almost every part of the config file.\n\nNote that you\'ll need to update your `Gruntfile.js` if you don\'t specify the `--gruntfile-path` option.\n\n\n## Options\n\nThere are a lot of options going on here. None of them are required and most are probably only useful when used with other generators calling this one.\n\nOptions are specified after `yo karma`. Example:\n\n`yo karma --skip-install --frameworks=jasmine --app-files=\'app/**/*.js,public/**/*.js\'`\n\nThe full list:\n\n * `--skip-install` Type: Boolean, Default: false\n\n  Skips the automatic execution of `npm` after scaffolding has finished.\n\n * `--coffee` Type: Boolean, Default: false\n\n  Use CoffeeScript instead of JavaScript.\n\n * `--frameworks` Type: String, Default: \'jasmine\'\n\n  Specifies which testing frameworks to use (CSV list). Example `--frameworks=mocha,chai,requirejs,sinon`\n\n * `--browsers` Type: String, Default: \'PhantomJS\'\n\n  What browsers to test in (CSV list).\n\n * `--app-files` Type: String, Default: \'\'\n\n  List of application files (CSV list). There are purely the files you edit that make up your test.\n\n * `--test-files` Type: String, Default: \'\'\n\n  List of test files (CSV list), including spec and mock files.\n\n * `--files-comments` Type: String, Default: \'\'\n\n  List of comments to add to files properties. It can be used to support bower dependencies wiring using [wiredep](https://github.com/taptapship/wiredep).\n\n * `--exclude-files` Type: String, Default: \'\'\n\n  List of files to exclude (CSV list). Files you don\'t want tested.\n\n * `--plugins` Type: String, Default: \'\'\n\n  Specify Karma plugins (npm modules). Use the full name like `karma-junit-reporter`.\n\n * `--bower-components` Type: String, Default: \'\'\n\n  Optional components to use for testing (CSV list of components).\n\n * `--bower-components-path` Type: String, Default: \'bower_components\'\n\n  Directory where Bower components are installed, if not in the default location.\n\n * `--travis` Type: Boolean, Default: false\n\n  Enable [Travis CI](https://travis-ci.org/) config generation by adding a .travis.yaml file.\n\n * `--gruntfile-path` Type: String, Default: \'\'\n\n  Path to a Gruntfile to edit. This is relative to your generators root directory. In other words, relative to `this.destinationRoot()` path.\n\n * `--base-path` Type: String, Default: \'\'\n\n  Will be used to resolve files and exclude in the `karma.conf.js` file.\n\n * `--web-port` Type: Number, Default: 8080\n\n  Web server port to run Karma from.\n\n * `--template-path` Type: String, Default: \'../templates\'\n\n  If you would like to specify a different template to use, give the path to that folder.\n\n * `--config-file` Type: String, Default: \'\'\n\n  The config file name to write to. Useful if you want a different name like `karma-e2e.conf.js`.\n\n * `--config-path` Type: String, Default: \'./test\'\n\n  Path where the config files should be written to. This is where the `karma.conf.js` file will be placed.\n\n\n## Configuration\n\nKarma can be configured by editing `karma.conf.js`. See the documentation page on the [config file](http://karma-runner.github.com/0.12/config/configuration-file.html) for an exhaustive list of options.\n\n\n## Contribute\n\nSee the [contributing docs](https://github.com/yeoman/yeoman/blob/master/contributing.md)\n\n\n## License\n\n[BSD license](http://opensource.org/licenses/bsd-license.php)\n',
+156 silly resolved     readmeFilename: 'readme.md',
+156 silly resolved     bugs: { url: 'https://github.com/yeoman/generator-karma/issues' },
+156 silly resolved     _id: 'generator-karma@1.0.1',
+156 silly resolved     _from: 'generator-karma@' },
+156 silly resolved   { name: 'bower',
+156 silly resolved     version: '1.7.2',
+156 silly resolved     description: 'The browser package manager',
+156 silly resolved     author: { name: 'Twitter' },
+156 silly resolved     license: 'MIT',
+156 silly resolved     repository: { type: 'git', url: 'git://github.com/bower/bower' },
+156 silly resolved     main: 'lib',
+156 silly resolved     homepage: 'http://bower.io',
+156 silly resolved     engines: { node: '>=0.10.0' },
+156 silly resolved     keywords: [ 'bower' ],
+156 silly resolved     dependencies:
+156 silly resolved      { abbrev: '^1.0.5',
+156 silly resolved        archy: '1.0.0',
+156 silly resolved        'bower-config': '^1.3.0',
+156 silly resolved        'bower-endpoint-parser': '^0.2.2',
+156 silly resolved        'bower-json': '^0.4.0',
+156 silly resolved        'bower-logger': '^0.2.2',
+156 silly resolved        'bower-registry-client': '^1.0.0',
+156 silly resolved        cardinal: '0.4.4',
+156 silly resolved        chalk: '^1.0.0',
+156 silly resolved        chmodr: '^1.0.2',
+156 silly resolved        configstore: '^0.3.2',
+156 silly resolved        'decompress-zip': '^0.1.0',
+156 silly resolved        destroy: '^1.0.3',
+156 silly resolved        'fs-write-stream-atomic': '1.0.5',
+156 silly resolved        fstream: '^1.0.3',
+156 silly resolved        'fstream-ignore': '^1.0.2',
+156 silly resolved        github: '^0.2.3',
+156 silly resolved        glob: '^4.3.2',
+156 silly resolved        'graceful-fs': '^3.0.5',
+156 silly resolved        handlebars: '^2.0.0',
+156 silly resolved        inquirer: '0.10.0',
+156 silly resolved        insight: '^0.7.0',
+156 silly resolved        'is-root': '^1.0.0',
+156 silly resolved        junk: '^1.0.0',
+156 silly resolved        lockfile: '^1.0.0',
+156 silly resolved        'lru-cache': '^2.5.0',
+156 silly resolved        'md5-hex': '^1.0.2',
+156 silly resolved        mkdirp: '0.5.0',
+156 silly resolved        mout: '^0.11.0',
+156 silly resolved        nopt: '^3.0.1',
+156 silly resolved        opn: '^1.0.1',
+156 silly resolved        'p-throttler': '0.1.1',
+156 silly resolved        promptly: '0.2.0',
+156 silly resolved        q: '^1.1.2',
+156 silly resolved        request: '2.53.0',
+156 silly resolved        'request-progress': '0.3.1',
+156 silly resolved        retry: '0.6.1',
+156 silly resolved        rimraf: '^2.2.8',
+156 silly resolved        semver: '^2.3.0',
+156 silly resolved        'semver-utils': '^1.1.1',
+156 silly resolved        'shell-quote': '^1.4.2',
+156 silly resolved        'stringify-object': '^1.0.0',
+156 silly resolved        'tar-fs': '^1.4.1',
+156 silly resolved        tmp: '0.0.24',
+156 silly resolved        'update-notifier': '^0.6.0',
+156 silly resolved        'user-home': '^1.1.0',
+156 silly resolved        which: '^1.0.8' },
+156 silly resolved     devDependencies:
+156 silly resolved      { chai: '^1.10.0',
+156 silly resolved        coveralls: '^2.11.2',
+156 silly resolved        'expect.js': '^0.3.1',
+156 silly resolved        grunt: '^0.4.5',
+156 silly resolved        'grunt-cli': '^0.1.13',
+156 silly resolved        'grunt-contrib-jshint': '^0.10.0',
+156 silly resolved        'grunt-contrib-watch': '^0.6.1',
+156 silly resolved        'grunt-exec': '^0.4.6',
+156 silly resolved        'grunt-jscs': '^2.3.0',
+156 silly resolved        'grunt-simple-mocha': '^0.4.0',
+156 silly resolved        istanbul: '^0.3.5',
+156 silly resolved        'load-grunt-tasks': '^2.0.0',
+156 silly resolved        mocha: '^2.1.0',
+156 silly resolved        multiline: '^1.0.2',
+156 silly resolved        nock: '^3.1.0',
+156 silly resolved        'node-uuid': '^1.4.2',
+156 silly resolved        proxyquire: '^1.3.0',
+156 silly resolved        'spawn-sync': '1.0.13' },
+156 silly resolved     scripts:
+156 silly resolved      { test: 'grunt test',
+156 silly resolved        ci: 'grunt travis',
+156 silly resolved        coveralls: 'coveralls' },
+156 silly resolved     bin: { bower: 'bin/bower' },
+156 silly resolved     files: [ 'bin', 'lib', 'templates' ],
+156 silly resolved     readme: '# Bower - A package manager for the web\n\n> Bower needs resources for its maintenance. Please see [our blog](http://bower.io/blog/) if you think you can help.\n\n[![Build Status](https://travis-ci.org/bower/bower.svg?branch=master)](https://travis-ci.org/bower/bower)\n[![Windows Build](https://ci.appveyor.com/api/projects/status/jr6vfra8w84plh2g/branch/master?svg=true)](https://ci.appveyor.com/project/sheerun/bower/history)\n[![Coverage Status](https://img.shields.io/coveralls/bower/bower.svg)](https://coveralls.io/r/bower/bower?branch=master)\n[![Discord chat](https://img.shields.io/badge/discord-join%20chat%20%E2%86%92-brightgreen.svg?style=flat)](https://discord.gg/0fFM7QF0KpZRh2cY)\n[![Issue Stats](http://issuestats.com/github/bower/bower/badge/pr?style=flat)](http://issuestats.com/github/bower/bower)\n[![Issue Stats](http://issuestats.com/github/bower/bower/badge/issue?style=flat)](http://issuestats.com/github/bower/bower)\n\n<img align="right" height="300" src="http://bower.io/img/bower-logo.png">\n\n---\n\nBower offers a generic, unopinionated solution to the problem of **front-end package management**, while exposing the package dependency model via an API that can be consumed by a more opinionated build stack. There are no system wide dependencies, no dependencies are shared between different apps, and the dependency tree is flat.\n\nBower runs over Git, and is package-agnostic. A packaged component can be made up of any type of asset, and use any type of transport (e.g., AMD, CommonJS, etc.).\n\n**View complete docs on [bower.io](http://bower.io)**\n\n[View all packages available through Bower\'s registry](http://bower.io/search/).\n\n## Install\n\n```sh\n$ npm install -g bower\n```\n\nBower depends on [Node.js](http://nodejs.org/) and [npm](http://npmjs.org/). Also make sure that [git](http://git-scm.com/) is installed as some bower\npackages require it to be fetched and installed.\n\n\n## Usage\n\nSee complete command line reference at [bower.io/docs/api/](http://bower.io/docs/api/)\n\n### Installing packages and dependencies\n\n```sh\n# install dependencies listed in bower.json\n$ bower install\n\n# install a package and add it to bower.json\n$ bower install <package> --save\n\n# install specific version of a package and add it to bower.json\n$ bower install <package>#<version> --save\n```\n\n### Using packages\n\nWe discourage using bower components statically for performance and security reasons (if component has an `upload.php` file that is not ignored, that can be easily exploited to do malicious stuff).\n\nThe best approach is to process components installed by bower with build tool (like [Grunt](http://gruntjs.com/) or [gulp](http://gulpjs.com/)), and serve them concatenated or using a module loader (like [RequireJS](http://requirejs.org/)).\n\n### Uninstalling packages\n\nTo uninstall a locally installed package:\n\n```sh\n$ bower uninstall <package-name>\n```\n\n### prezto and oh-my-zsh users\n\nOn `prezto` or `oh-my-zsh`, do not forget to `alias bower=\'noglob bower\'` or `bower install jquery\\#1.9.1`\n\n### Never run Bower with sudo\n\nBower is a user command; there is no need to execute it with superuser permissions.\n\n### Windows users\n\nTo use Bower on Windows, you must install\n[Git for Windows](http://git-for-windows.github.io/) correctly. Be sure to check the\noptions shown below:\n\n<img src="https://cloud.githubusercontent.com/assets/10702007/10532690/d2e8991a-7386-11e5-9a57-613c7f92e84e.png" width="534" height="418" alt="Git for Windows" />\n\n<img src="https://cloud.githubusercontent.com/assets/10702007/10532694/dbe8857a-7386-11e5-9bd0-367e97644403.png" width="534" height="418" alt="Git for Windows" />\n\nNote that if you use TortoiseGit and if Bower keeps asking for your SSH\npassword, you should add the following environment variable: `GIT_SSH -\nC:\\Program Files\\TortoiseGit\\bin\\TortoisePlink.exe`. Adjust the `TortoisePlink`\npath if needed.\n\n### Ubuntu users\n\nTo use Bower on Ubuntu, you might need to link `nodejs` executable to `node`:\n\n```\nsudo ln -s /usr/bin/nodejs /usr/bin/node\n```\n\n## Configuration\n\nBower can be configured using JSON in a `.bowerrc` file. Read over available options at [bower.io/docs/config](http://bower.io/docs/config).\n\n\n## Support\n\n* [Discord chat](https://discord.gg/0fFM7QF0KpZRh2cY)\n* [StackOverflow](http://stackoverflow.com/questions/tagged/bower)\n* [Mailinglist](http://groups.google.com/group/twitter-bower) - twitter-bower@googlegroups.com\n* [\\#bower](http://webchat.freenode.net/?channels=bower) on Freenode\n\n\n## Contributing\n\nWe welcome [contributions](https://github.com/bower/bower/graphs/contributors) of all kinds from anyone. Please take a moment to review the [guidelines for contributing](CONTRIBUTING.md).\n\n* [Bug reports](https://github.com/bower/bower/wiki/Report-a-Bug)\n* [Feature requests](CONTRIBUTING.md#features)\n* [Pull requests](CONTRIBUTING.md#pull-requests)\n\n\nNote that on Windows for tests to pass you need to configure Git before cloning:\n\n```\ngit config --global core.autocrlf input\n```\n\n## License\n\nCopyright (c) 2015 Twitter and [other contributors](https://github.com/bower/bower/graphs/contributors)\n\nLicensed under the MIT License\n',
+156 silly resolved     readmeFilename: 'README.md',
+156 silly resolved     bugs: { url: 'https://github.com/bower/bower/issues' },
+156 silly resolved     bundleDependencies:
+156 silly resolved      [ 'abbrev',
+156 silly resolved        'archy',
+156 silly resolved        'bower-config',
+156 silly resolved        'bower-endpoint-parser',
+156 silly resolved        'bower-json',
+156 silly resolved        'bower-logger',
+156 silly resolved        'bower-registry-client',
+156 silly resolved        'cardinal',
+156 silly resolved        'chalk',
+156 silly resolved        'chmodr',
+156 silly resolved        'configstore',
+156 silly resolved        'decompress-zip',
+156 silly resolved        'destroy',
+156 silly resolved        'fs-write-stream-atomic',
+156 silly resolved        'fstream',
+156 silly resolved        'fstream-ignore',
+156 silly resolved        'github',
+156 silly resolved        'glob',
+156 silly resolved        'graceful-fs',
+156 silly resolved        'handlebars',
+156 silly resolved        'inquirer',
+156 silly resolved        'insight',
+156 silly resolved        'is-root',
+156 silly resolved        'junk',
+156 silly resolved        'lockfile',
+156 silly resolved        'lru-cache',
+156 silly resolved        'md5-hex',
+156 silly resolved        'mkdirp',
+156 silly resolved        'mout',
+156 silly resolved        'nopt',
+156 silly resolved        'opn',
+156 silly resolved        'p-throttler',
+156 silly resolved        'promptly',
+156 silly resolved        'q',
+156 silly resolved        'request',
+156 silly resolved        'request-progress',
+156 silly resolved        'retry',
+156 silly resolved        'rimraf',
+156 silly resolved        'semver',
+156 silly resolved        'shell-quote',
+156 silly resolved        'stringify-object',
+156 silly resolved        'tar-fs',
+156 silly resolved        'tmp',
+156 silly resolved        'update-notifier',
+156 silly resolved        'user-home',
+156 silly resolved        'which' ],
+156 silly resolved     _id: 'bower@1.7.2',
+156 silly resolved     _from: 'bower@' } ]
+157 info install generator-angular@0.15.1 into /usr/local/lib
+158 info install grunt-cli@0.1.13 into /usr/local/lib
+159 info install yo@1.5.1 into /usr/local/lib
+160 info install generator-karma@1.0.1 into /usr/local/lib
+161 info install bower@1.7.2 into /usr/local/lib
+162 info installOne generator-angular@0.15.1
+163 info installOne grunt-cli@0.1.13
+164 info installOne yo@1.5.1
+165 warn engine yo@1.5.1: wanted: {"node":">=0.12.0"} (current: {"node":"v0.10.25","npm":"1.3.10"})
+166 info installOne generator-karma@1.0.1
+167 info installOne bower@1.7.2
+168 info /usr/local/lib/node_modules/generator-angular unbuild
+169 info /usr/local/lib/node_modules/grunt-cli unbuild
+170 info /usr/local/lib/node_modules/yo unbuild
+171 info /usr/local/lib/node_modules/generator-karma unbuild
+172 info /usr/local/lib/node_modules/bower unbuild
+173 info preuninstall generator-angular@0.15.1
+174 info preuninstall grunt-cli@0.1.13
+175 info preuninstall yo@1.5.1
+176 info preuninstall generator-karma@1.0.1
+177 info preuninstall bower@1.7.2
+178 info uninstall generator-angular@0.15.1
+179 info uninstall grunt-cli@0.1.13
+180 info uninstall yo@1.5.1
+181 info uninstall generator-karma@1.0.1
+182 info uninstall bower@1.7.2
+183 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild generator-angular@0.15.1
+184 info postuninstall generator-angular@0.15.1
+185 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild grunt-cli@0.1.13
+186 verbose /usr/local/bin,[object Object] binRoot
+187 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild yo@1.5.1
+188 verbose /usr/local/bin,[object Object] binRoot
+189 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild generator-karma@1.0.1
+190 info postuninstall generator-karma@1.0.1
+191 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild bower@1.7.2
+192 verbose /usr/local/bin,[object Object] binRoot
+193 info /usr/local/lib/node_modules/generator-angular unbuild
+194 info /usr/local/lib/node_modules/grunt-cli unbuild
+195 info /usr/local/lib/node_modules/yo unbuild
+196 info /usr/local/lib/node_modules/generator-karma unbuild
+197 info /usr/local/lib/node_modules/bower unbuild
+198 info preuninstall generator-angular@0.15.1
+199 info preuninstall grunt-cli@0.1.13
+200 info preuninstall yo@1.5.1
+201 info preuninstall generator-karma@1.0.1
+202 info preuninstall bower@1.7.2
+203 info uninstall generator-angular@0.15.1
+204 info uninstall grunt-cli@0.1.13
+205 info uninstall yo@1.5.1
+206 info uninstall generator-karma@1.0.1
+207 info uninstall bower@1.7.2
+208 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild generator-angular@0.15.1
+209 info postuninstall generator-angular@0.15.1
+210 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild grunt-cli@0.1.13
+211 verbose /usr/local/bin,[object Object] binRoot
+212 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild yo@1.5.1
+213 verbose /usr/local/bin,[object Object] binRoot
+214 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild generator-karma@1.0.1
+215 info postuninstall generator-karma@1.0.1
+216 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild bower@1.7.2
+217 verbose /usr/local/bin,[object Object] binRoot
+218 error error rolling back Error: EACCES, unlink '/usr/local/lib/node_modules/generator-angular'
+218 error error rolling back  generator-angular@0.15.1 { [Error: EACCES, unlink '/usr/local/lib/node_modules/generator-angular']
+218 error error rolling back   errno: 3,
+218 error error rolling back   code: 'EACCES',
+218 error error rolling back   path: '/usr/local/lib/node_modules/generator-angular' }
+219 error Error: EACCES, unlink '/usr/local/lib/node_modules/generator-angular'
+219 error  { [Error: EACCES, unlink '/usr/local/lib/node_modules/generator-angular']
+219 error   errno: 3,
+219 error   code: 'EACCES',
+219 error   path: '/usr/local/lib/node_modules/generator-angular' }
+220 error Please try running this command again as root/Administrator.
+221 error System Linux 3.19.0-28-generic
+222 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "-g" "grunt-cli" "bower" "yo" "generator-karma" "generator-angular"
+223 error cwd /home/ubuntu/node/node-rest
+224 error node -v v0.10.25
+225 error npm -v 1.3.10
+226 error path /usr/local/lib/node_modules/generator-angular
+227 error code EACCES
+228 error errno 3
+229 error stack Error: EACCES, unlink '/usr/local/lib/node_modules/generator-angular'
+230 verbose exit [ 3, true ]
